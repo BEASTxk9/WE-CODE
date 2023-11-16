@@ -1,7 +1,7 @@
 document.getElementById("navbar").innerHTML = `
 <nav>
 
-<a href="index.html" class="logo">Logo</a>
+<a href="index.html" class="logo">WE CODE</a>
 <ul>
 <li><a href="index.html#landing_sec">Home</a></li>
 <li><a href="index.html#about_sec">About</a></li>
