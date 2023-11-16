@@ -65,9 +65,21 @@ section:nth-child(even){
 
 
 /* MAIN */
-main{
-
+#headings{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
+#headings-dash{
+color: var(--g_2color);
+padding-right: 10px;
+}
+#sub_headings{
+    color: var(--g_2color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 
 /* FOOTER */
 

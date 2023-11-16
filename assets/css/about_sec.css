@@ -1,8 +1,14 @@
 #about_sec{
-    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-
+#about_sub_topic{
+    border-bottom: 1px solid aqua;
+}
 
 
 
