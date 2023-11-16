@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let loader = document.getElementById("loader");
     let mainContent = document.querySelector("main");
 
-    // Hide the loader after 5 seconds
+    // Hide the loader after 2 seconds
     setTimeout(function () {
-        loader.style.display = "none";
+        loader.style.display = "none";   // Hide the loader
         mainContent.style.opacity = "1"; // Show the main content
     }, 2100);
 });
