@@ -1,0 +1,105 @@
+#landing_sec{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url("https://i.postimg.cc/KvTrkqx5/jay-548381-1280-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+/* content */
+#L_sub_heading{
+    color: var(--g_2color);
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#L_heading{
+    letter-spacing: 3px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+#L_btn{
+    background-color: transparent;
+    color: var(--g_1color);
+    border: var(--g_border);
+    border-top-left-radius: var(--g_border_radius);
+    border-bottom-right-radius: var(--g_border_radius);
+    padding: 10px;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 991.5px){
+    #L_content_con{
+        padding-top: 10vh;
+    }
+}
+@media screen and (max-width: 767.5px){
+#L_content_con{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#L_sub_heading{
+    font-size: 0.7rem; 
+}
+#L_heading{
+    font-size: 2rem; 
+}
+}
+
+
+
+/* cards */
+#L_cards_con{
+    position: absolute !important;
+    bottom: -130px;
+}
+#L_card{
+    background-color: var(--s2_bgcolor);
+    mix-blend-mode: difference;
+    padding: 20px;
+    margin-left: var(--card_margin);
+    margin-right: var(--card_margin);
+    transition: var(--g_transition);
+    border-top-right-radius: var(--g_border_radius);
+    border-bottom-left-radius: var(--g_border_radius);
+}
+#L_card:hover, #L_card.active{
+    box-shadow: 0px 0px 4px aqua;
+}
+
+/* inside card */
+#icon{
+    color: var(--g_2color);
+    font-size: 2rem;
+    padding-bottom: 5px;
+
+    display: flex;
+    justify-content: end;
+}
+#L_card_heading{
+    font-size: 1.4rem;
+}
+
+/* card media queris */
+@media screen and (max-width: 991.5px){
+    #L_cards_con{
+        position: relative !important;
+        bottom: 0;
+        margin-top: 20px;
+    }
+    #L_card{
+        background-color: rgba(0, 0, 0, 0.616);
+        margin-top: var(--card_margin);
+        margin-bottom: var(--card_margin);
+        mix-blend-mode: unset !important;
+        box-shadow: 0px 0px 4px aqua;
+        width: 95%;
+    }
+}

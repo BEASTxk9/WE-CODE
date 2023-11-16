@@ -1,0 +1,13 @@
+#about_sec{
+    padding-top: 15vh;
+}
+
+
+
+
+
+@media only screen and (max-width: 991.5px){
+    #about_sec{
+        padding-top: 2vh;
+    }
+}

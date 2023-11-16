@@ -1,0 +1,76 @@
+/* CSS VARIABLES */
+:root{
+--s1_bgcolor: #000000;
+--s2_bgcolor: #121212;
+
+
+--g_1color: white;
+--g_2color: aqua;
+
+--g_border: 3px solid aqua;
+--g_border_radius: 20px;
+
+--card_margin: 5px;
+
+--g_transition: all 0.3s ease-in-out;
+}
+
+
+/* ALL */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto mono;
+}
+
+body{
+    overflow-x: none;
+    color: var(--g_1color);
+}
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+    ::-webkit-scrollbar-track {
+    background: var(--s1_bgcolor); 
+  }
+    ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius:10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    
+    background: #555; 
+  } 
+
+
+  
+section{
+    min-height: 100vh;
+}
+
+/* every 2nd section will be a differnt color */
+section:nth-child(odd){
+    background-color: var(--s1_bgcolor);
+}
+section:nth-child(even){
+    background-color: var(--s2_bgcolor);
+}
+
+
+/* HEADER */
+
+
+
+/* MAIN */
+main{
+
+}
+
+/* FOOTER */
+
+
+
+
