@@ -1,13 +1,13 @@
 // Display the loader when the page starts loading
 document.addEventListener("DOMContentLoaded", function () {
-    var loader = document.getElementById("loader");
-    var mainContent = document.querySelector("main");
+    let loader = document.getElementById("loader");
+    let mainContent = document.querySelector("main");
 
     // Hide the loader after 5 seconds
     setTimeout(function () {
         loader.style.display = "none";
         mainContent.style.opacity = "1"; // Show the main content
-    }, 2000);
+    }, 2100);
 });
 
 
